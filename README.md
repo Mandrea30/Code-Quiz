@@ -29,4 +29,5 @@ Check your results and high scores at the end of the quiz.
 * Google
 
 ## Links
-* [GitHub] (https://github.com/Mandrea30/Code-Quiz)
+* [GitHub] (https://mandrea30.github.io/Code-Quiz/)
+* 
