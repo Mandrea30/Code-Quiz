@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/style.css" rel="stylesheet">
+    <title>Code Quiz</title>
+</head>
+<body>
+    <!--Link for high scores & timer-->
+    <div class="results"><a href="results.html">Click Here to See High Scores</a></div>
+
+    <div class="timer">Time: <span id="time">0</span></div>
+
+    <div class="wrapper">
+        <div id="starting-screen" class="start">
+            <h1>Timed Coding Quiz</h1>
+            <p>
+                Answer the following questions under the time limit.
+                <br>There are 10 multiple multiple-choice questions.
+                <br>For each wrong answer, the time will be subtracted.
+                <br>
+                <br>Checkout the High Scores at the end!
+                <br>
+                <br> Good Luck!
+            </p>
+            <button id ="start">Begin Quiz!</button>
+        </div>
+    </div>
+
+    <!--Questions in questions.js-->
+
+    <div id="questions" class="hide">
+        <h2 id="subject-question"></h2>
+        <div id="answers" class="answers"></div>
+    </div>
+
+    <!--Display Results-->
+
+    <div id="ending-screen" class="hide">
+        <h2>Done!</h2>
+        <p>
+            Your Final Score is: <span id="final-score"></span>
+        </p>
+        <br>
+        <p>
+            Enter Your Initials: <input type="text" id="initials" max="4"/>
+            <button id="submit">Submit</button>
+        </p>
+    </div>
+
+    <div id="feedback" class="feedback hide"></div>
+</div>
+
+    <script src="assets/js/questions.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
