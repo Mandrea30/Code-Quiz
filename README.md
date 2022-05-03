@@ -21,10 +21,11 @@ Check your results and high scores at the end of the quiz.
 ***
 ## Resources / Credits
 ---
-* Youtube Channel _Web Dev Simplified_
+
 * UM Canvas - Module 4
-* _Web Coding & Development - All IN ONE_ by Paul McFedries
 * _Eloquent Javascript_ by Marijn Haverbeke
+* _Web Coding & Development - All IN ONE_ by Paul McFedries
+* Youtube Channel _Web Dev Simplified_
 * Google
 
 ## Links
