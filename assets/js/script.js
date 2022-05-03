@@ -1,10 +1,9 @@
 // variables
-
-var questionsEl = document.querySelector("#questions");
 var timerEl = document.querySelector("#time");
-var choicesEl = document.querySelector("#answers");
-var submitBtn = document.querySelector("#submit");
 var startBtn = document.querySelector("#start");
+var questionsEl = document.querySelector("#questions");
+var choicesEl = document.querySelector("#choices");
+var submitBtn = document.querySelector("#submit");
 var initialsEl = document.querySelector("#initials");
 var feedbackEl = document.querySelector("#feedback");
 
@@ -31,10 +30,10 @@ function getQuestion() {
   var currentQuestion = questions[currentQuestionIndex];
 
   // questions start
-  var titleEl = document.getElementById("question-title");
+  var titleEl = document.getElementById("subject-question");
   titleEl.textContent = currentQuestion.title;
 
-  choicesEl.innerHTML = "";
+  answersEl.innerHTML = "";
 
   // questions loop
   currentQuestion.choices.forEach(function(choice, i) {
