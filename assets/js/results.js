@@ -8,7 +8,7 @@ function printHighscores() {
     });
   
     highscores.forEach(function(score) {
-      // create list item tag for each high score
+      // create li tag for each high score
       var liTag = document.createElement("li");
       liTag.textContent = score.initials + " - " + score.score;
   
